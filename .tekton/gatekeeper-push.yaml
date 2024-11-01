@@ -29,7 +29,7 @@ spec:
   - name: revision
     value: '{{revision}}'
   - name: output-image
-    value: quay.io/redhat-user-workloads/shebert-tenant/olm-operator/gatekeeper:{{revision}}
+    value: quay.io/redhat-user-workloads-stage/shebert-tenant/gatekeeper:{{revision}}
   - name: dockerfile
     value: Containerfile.gatekeeper
   - name: path-context
