@@ -2,7 +2,7 @@ apiVersion: tekton.dev/v1
 kind: PipelineRun
 metadata:
   annotations:
-    build.appstudio.openshift.io/repo: https://github.com/konflux-ci/olm-operator-konflux-sample?rev={{revision}}
+    build.appstudio.openshift.io/repo: https://github.com/scoheb/olm-operator-konflux-sample?rev={{revision}}
     build.appstudio.redhat.com/commit_sha: '{{revision}}'
     build.appstudio.redhat.com/target_branch: '{{target_branch}}'
     pipelinesascode.tekton.dev/max-keep-runs: "3"
@@ -22,7 +22,7 @@ spec:
   - name: revision
     value: '{{revision}}'
   - name: output-image
-    value: quay.io/redhat-user-workloads/konflux-samples-tenant/gatekeeper-fbc-v413/gatekeeper-fbc-v413:{{revision}}
+    value: quay.io/redhat-user-workloads/shebert-tenant/gatekeeper-fbc-v413/gatekeeper-fbc-v413:{{revision}}
   - name: dockerfile
     value: Containerfile.catalog
   - name: path-context

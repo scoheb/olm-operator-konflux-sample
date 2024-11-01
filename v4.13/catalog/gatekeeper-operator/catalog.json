@@ -340,7 +340,7 @@
     "schema": "olm.bundle",
     "name": "gatekeeper-operator.v3.15.1",
     "package": "gatekeeper-operator",
-    "image": "quay.io/redhat-user-workloads/konflux-samples-tenant/olm-operator/gatekeeper-operator-bundle:d5fb5100da6049bad5ddaa1362662f30cf5112d9",
+    "image": "quay.io/redhat-user-workloads/shebert-tenant/olm-operator/gatekeeper-operator-bundle:d5fb5100da6049bad5ddaa1362662f30cf5112d9",
     "properties": [
         {
             "type": "olm.gvk",
@@ -389,15 +389,15 @@
         },
         {
             "name": "",
-            "image": "quay.io/redhat-user-workloads/konflux-samples-tenant/olm-operator/gatekeeper-operator-bundle:d5fb5100da6049bad5ddaa1362662f30cf5112d9"
+            "image": "quay.io/redhat-user-workloads/shebert-tenant/olm-operator/gatekeeper-operator-bundle:d5fb5100da6049bad5ddaa1362662f30cf5112d9"
         },
         {
             "name": "gatekeeper-operator",
-            "image": "quay.io/redhat-user-workloads/konflux-samples-tenant/olm-operator/gatekeeper-operator@sha256:9539680c13deaac90cd6846bd5a39d5ce593eb92b6ce377076de2f09eb9dcc33"
+            "image": "quay.io/redhat-user-workloads/shebert-tenant/olm-operator/gatekeeper-operator@sha256:9539680c13deaac90cd6846bd5a39d5ce593eb92b6ce377076de2f09eb9dcc33"
         },
         {
             "name": "gatekeeper",
-            "image": "quay.io/redhat-user-workloads/konflux-samples-tenant/olm-operator/gatekeeper@sha256:1c2fead5406f7c1c164efa83b56210839bc296400284d3ca80753ccdc08f274a"
+            "image": "quay.io/redhat-user-workloads/shebert-tenant/olm-operator/gatekeeper@sha256:1c2fead5406f7c1c164efa83b56210839bc296400284d3ca80753ccdc08f274a"
         }
     ]
 }
