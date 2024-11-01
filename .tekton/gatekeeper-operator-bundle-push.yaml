@@ -21,7 +21,7 @@ metadata:
     appstudio.openshift.io/component: gatekeeper-operator-bundle
     pipelines.appstudio.openshift.io/type: build
   name: gatekeeper-operator-bundle-on-push
-  namespace: konflux-samples-tenant
+  namespace: shebert-tenant
 spec:
   params:
   - name: git-url

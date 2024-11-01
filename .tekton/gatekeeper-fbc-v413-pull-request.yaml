@@ -18,7 +18,7 @@ metadata:
     appstudio.openshift.io/component: gatekeeper-fbc-v413
     pipelines.appstudio.openshift.io/type: build
   name: gatekeeper-fbc-v413-on-pull-request
-  namespace: konflux-samples-tenant
+  namespace: shebert-tenant
 spec:
   params:
   - name: git-url
